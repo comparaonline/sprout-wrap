@@ -17,7 +17,6 @@ recipes:
 - pivotal_workstation::unix_essentials
 - sprout-osx-git::git_projects
 - pivotal_workstation::git_config_global_defaults
-- sprout-osx-git::git_scripts
 
 # development (rails)
 - sprout-osx-rbenv
@@ -47,9 +46,6 @@ recipes:
 - sprout-osx-apps::vagrant
 
 # apps (editors)
-- sprout-osx-apps::textmate
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
 
 - sprout-osx-apps::macvim
 - sprout-osx-apps::ctags_exuberant
@@ -58,19 +54,6 @@ recipes:
 - sprout-osx-rubymine::preferences
 
 node_attributes:
-  git_pairs_domain: pivotallabs.com
-  git_pairs_authors:
-    - initials: ah
-      name: Abhijit Hiremagalur
-      shortname: abhi
-    - initials: bc
-      name: Brian Cunnie
-      shortname: cunnie
-    - initials: jrhb
-      name: Jonathan Barnes
-    - initials: lw
-      name: Luke Winikates
-      shortname: lwinikates
   git_projects:
     -
       - sprout-wrap

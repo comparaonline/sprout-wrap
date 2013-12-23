@@ -21,12 +21,11 @@ node_attributes:
   sprout:
     homebrew:
       casks:
-        -
-          - bettertouchtool
-          - ccmenu
-          - gitx-rowanj
-          - iterm2
-          - menumeters
-          - virtualbox
-          - vagrant
-          - skype
+        - bettertouchtool
+        - ccmenu
+        - gitx-rowanj
+        - iterm2
+        - menumeters
+        - virtualbox
+        - vagrant
+        - skype

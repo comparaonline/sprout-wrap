@@ -23,7 +23,9 @@ node_attributes:
       casks:
         - bettertouchtool
         - ccmenu
+        - github
         - gitx-rowanj
+        - handbrake
         - iterm2
         - menumeters
         - virtualbox

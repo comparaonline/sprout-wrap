@@ -20,6 +20,27 @@ node_attributes:
       - https://github.com/pivotal-sprout/sprout-wrap.git
   sprout:
     homebrew:
+      formulae:
+        - coreutils
+        - ctags
+        - curl-ca-bundle
+        - elixir
+        - fasd
+        - git
+        - htop-osx
+        - macvim
+        - memcached
+        - mtr
+        - mysql
+        - postgresql
+        - readline
+        - redis
+        - sqlite
+        - youtube-dl
+        - zeromq
+        - zmq
+        - zsh
+        - zsh-completions
       casks:
         - bettertouchtool
         - ccmenu

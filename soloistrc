@@ -28,6 +28,6 @@ node_attributes:
         - handbrake
         - iterm2
         - menumeters
-        - virtualbox
-        - vagrant
         - skype
+        - vagrant
+        - virtualbox

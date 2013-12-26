@@ -5,6 +5,9 @@ recipes:
 - sprout-homebrew
 - sprout-osx-base::homebrew
 
+# ruby
+- rbenv::user
+
 # settings
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 
@@ -18,6 +21,17 @@ node_attributes:
     -
       - sprout-wrap
       - https://github.com/pivotal-sprout/sprout-wrap.git
+  rbenv:
+    create_profiled: false
+    upgrade: true
+    user_installs:
+     -
+       user: mak
+       rubies:
+         - 2.0.0-p353
+       global: 2.0.0-p353
+  ruby_build:
+    upgrade: true
   sprout:
     homebrew:
       formulae:

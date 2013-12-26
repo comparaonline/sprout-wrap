@@ -3,9 +3,9 @@ recipes:
 # base (required by sprout)
 - pivotal_workstation::create_var_chef_cache
 - sprout-homebrew
-- sprout-osx-base::homebrew
 
 # ruby
+- ruby_build
 - rbenv::user
 
 # settings
@@ -21,6 +21,15 @@ node_attributes:
     -
       - sprout-wrap
       - https://github.com/pivotal-sprout/sprout-wrap.git
+    # rbenv plugins
+    -
+      - rbenv-default-gems
+      - https://github.com/sstephenson/rbenv-default-gems.git
+      - .rbenv/plugins
+    -
+      - rbenv-ctags
+      - https://github.com/tpope/rbenv-ctags.git
+      - .rbenv/plugins
   rbenv:
     create_profiled: false
     upgrade: true
@@ -41,8 +50,6 @@ node_attributes:
             - name: rake
           2.1.0:
             *default_gems
-  ruby_build:
-    upgrade: true
   sprout:
     homebrew:
       formulae:
@@ -58,8 +65,10 @@ node_attributes:
         - mtr
         - mysql
         - postgresql
+        - rbenv
         - readline
         - redis
+        - ruby-build
         - sqlite
         - youtube-dl
         - zmq

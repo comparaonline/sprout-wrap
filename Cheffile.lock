@@ -3,6 +3,14 @@ SITE
   specs:
     dmg (2.0.8)
     homebrew (1.5.2)
+    ruby_build (0.8.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-rbenv.git
+  ref: master
+  sha: 9afb4e5da2e6212504a12de3bbbd410cd96100f6
+  specs:
+    rbenv (0.7.3)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout-homebrew.git
@@ -120,6 +128,8 @@ DEPENDENCIES
   meta (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)
+  rbenv (>= 0)
+  ruby_build (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)

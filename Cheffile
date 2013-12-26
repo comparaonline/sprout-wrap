@@ -3,6 +3,10 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
 
+cookbook 'ruby_build'
+
+cookbook 'rbenv', git: 'git://github.com/fnichol/chef-rbenv.git'
+
 cookbook 'sprout-osx-rbenv',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-rbenv'

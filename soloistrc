@@ -4,59 +4,20 @@ recipes:
 - pivotal_workstation::create_var_chef_cache
 - sprout-homebrew
 
-# ruby
-- ruby_build
-- rbenv::user
-
 # settings
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 
 # development (general)
 - sprout-osx-base::workspace_directory
 - pivotal_workstation::unix_essentials
-- sprout-osx-git::git_projects
 
 node_attributes:
-  git_projects:
-    -
-      - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
-    # rbenv plugins
-    -
-      - rbenv-default-gems
-      - https://github.com/sstephenson/rbenv-default-gems.git
-      - .rbenv/plugins
-    -
-      - rbenv-ctags
-      - https://github.com/tpope/rbenv-ctags.git
-      - .rbenv/plugins
-  rbenv:
-    create_profiled: false
-    upgrade: true
-    user_installs:
-      - user: mak
-        rubies:
-          - 2.0.0-p353
-          - 2.1.0
-        global: 2.1.0
-        gems:
-          2.0.0-p353: &default_gems
-            - name: berkshelf
-            - name: bundler
-            - name: chef
-            - name: gem-ctags
-            - name: git-smart
-            - name: pry
-            - name: rake
-          2.1.0:
-            *default_gems
   sprout:
     homebrew:
       formulae:
         - coreutils
         - ctags
         - curl-ca-bundle
-        - elixir
         - fasd
         - git
         - htop-osx
@@ -70,16 +31,12 @@ node_attributes:
         - redis
         - ruby-build
         - sqlite
-        - youtube-dl
         - zmq
         - zsh
         - zsh-completions
       casks:
-        - bettertouchtool
-        - ccmenu
         - github
         - gitx-rowanj
-        - handbrake
         - iterm2
         - menumeters
         - skype

@@ -37,6 +37,7 @@ node_attributes:
       casks:
         - github
         - gitx-rowanj
+        - google-chrome
         - iterm2
         - menumeters
         - skype

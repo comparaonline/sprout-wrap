@@ -1,7 +1,6 @@
 recipes:
 
 # base (required by sprout)
-- pivotal_workstation::create_var_chef_cache
 - sprout-homebrew
 
 # settings
@@ -9,7 +8,6 @@ recipes:
 
 # development (general)
 - sprout-osx-base::workspace_directory
-- pivotal_workstation::unix_essentials
 
 node_attributes:
   sprout:

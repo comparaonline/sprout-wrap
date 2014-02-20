@@ -3,9 +3,6 @@ recipes:
 # base (required by sprout)
 - sprout-homebrew
 
-# homebrew taps
-- sprout-osx-homebrew-taps
-
 # settings
 - sprout-osx-settings::defaults_fast_key_repeat_rate
 

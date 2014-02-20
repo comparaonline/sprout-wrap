@@ -21,6 +21,10 @@ Finally, if you've never used Chef before - we highly recommend you buy &amp; wa
 
 Don't forget to start up Xcode once it's installed so that you can agree to the terms&mdash;many commands won't work until the terms have been agreed to.
 
+### 2. Accept XCode Agreement 
+
+    sudo xcodebuild -license
+
 ### 2. Install Command Line Tools
   
     xcode-select --install

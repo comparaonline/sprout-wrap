@@ -8,7 +8,7 @@ SITE
 GIT
   remote: git://github.com/comparaonline/sprout-oh-my-zsh.git
   ref: master
-  sha: 7e90c3fec47249f9f296aa5eb0e4165b13bd1ad3
+  sha: 874407f69ad06f3c17a606ddbde5c61acf03a524
   specs:
     sprout-oh-my-zsh (0.0.1)
 

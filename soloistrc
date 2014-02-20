@@ -8,6 +8,7 @@ recipes:
 
 # development (general)
 - sprout-osx-base::workspace_directory
+- sprout-oh-my-zsh
 
 # development (ruby)
 - sprout-osx-rbenv

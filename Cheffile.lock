@@ -16,7 +16,7 @@ GIT
   remote: git://github.com/comparaonline/sprout.git
   path: sprout-osx-homebrew-taps
   ref: master
-  sha: b9d2ba1c42640ff46fa3c5fd07b8aaf09f11a707
+  sha: 22ededae1a3935ae27047a00d911b0f222c7e479
   specs:
     sprout-osx-homebrew-taps (0.1.0)
       homebrew (>= 0.0.0)
@@ -26,7 +26,7 @@ GIT
   remote: git://github.com/comparaonline/sprout.git
   path: sprout-osx-rbenv
   ref: master
-  sha: b9d2ba1c42640ff46fa3c5fd07b8aaf09f11a707
+  sha: 22ededae1a3935ae27047a00d911b0f222c7e479
   specs:
     sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)

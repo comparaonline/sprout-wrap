@@ -9,7 +9,7 @@ GIT
   remote: git://github.com/comparaonline/sprout.git
   path: sprout-osx-rbenv
   ref: master
-  sha: 81abc28c1137b4506609c010d18089c9adf39577
+  sha: 0c43fe66ecc9501757e491a047c54451d0dddd9e
   specs:
     sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)

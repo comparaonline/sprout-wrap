@@ -46,5 +46,6 @@ node_attributes:
         - menumeters
         - rubymine
         - skype
+        - sublime-text
         - vagrant
         - virtualbox

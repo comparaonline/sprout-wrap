@@ -6,11 +6,11 @@ SITE
     ruby_build (0.8.0)
 
 GIT
-  remote: git://github.com/comparaonline/sprout-oh-my-zsh.git
+  remote: git://github.com/comparaonline/sprout-osx-oh-my-zsh.git
   ref: master
   sha: 874407f69ad06f3c17a606ddbde5c61acf03a524
   specs:
-    sprout-oh-my-zsh (0.0.1)
+    sprout-osx-oh-my-zsh (0.0.1)
 
 GIT
   remote: git://github.com/comparaonline/sprout.git
@@ -138,10 +138,10 @@ DEPENDENCIES
   rbenv (>= 0)
   ruby_build (>= 0)
   sprout-homebrew (>= 0)
-  sprout-oh-my-zsh (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
   sprout-osx-git (>= 0)
+  sprout-osx-oh-my-zsh (>= 0)
   sprout-osx-rbenv (>= 0)
   sprout-osx-rubymine (>= 0)
   sprout-osx-settings (>= 0)

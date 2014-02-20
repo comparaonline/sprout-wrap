@@ -14,9 +14,19 @@ GIT
 
 GIT
   remote: git://github.com/comparaonline/sprout.git
+  path: sprout-osx-homebrew-taps
+  ref: master
+  sha: b9d2ba1c42640ff46fa3c5fd07b8aaf09f11a707
+  specs:
+    sprout-osx-homebrew-taps (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/comparaonline/sprout.git
   path: sprout-osx-rbenv
   ref: master
-  sha: 0c43fe66ecc9501757e491a047c54451d0dddd9e
+  sha: b9d2ba1c42640ff46fa3c5fd07b8aaf09f11a707
   specs:
     sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)
@@ -141,6 +151,7 @@ DEPENDENCIES
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
   sprout-osx-git (>= 0)
+  sprout-osx-homebrew-taps (>= 0)
   sprout-osx-oh-my-zsh (>= 0)
   sprout-osx-rbenv (>= 0)
   sprout-osx-rubymine (>= 0)

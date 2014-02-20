@@ -6,6 +6,16 @@ SITE
     ruby_build (0.8.0)
 
 GIT
+  remote: git://github.com/comparaonline/sprout.git
+  path: sprout-osx-rbenv
+  ref: master
+  sha: 81abc28c1137b4506609c010d18089c9adf39577
+  specs:
+    sprout-osx-rbenv (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
   remote: git://github.com/fnichol/chef-rbenv.git
   ref: master
   sha: 9afb4e5da2e6212504a12de3bbbd410cd96100f6
@@ -70,16 +80,6 @@ GIT
   sha: 522fdfc126f1944701c3df97f1ba5ea22a3a5fc4
   specs:
     sprout-osx-git (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
-  path: sprout-osx-rbenv
-  ref: master
-  sha: 522fdfc126f1944701c3df97f1ba5ea22a3a5fc4
-  specs:
-    sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 

@@ -8,7 +8,7 @@ cookbook 'ruby_build'
 cookbook 'rbenv', git: 'git://github.com/fnichol/chef-rbenv.git'
 
 cookbook 'sprout-osx-rbenv',
-  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :git => 'git://github.com/comparaonline/sprout.git',
   :path => 'sprout-osx-rbenv'
 
 cookbook 'sprout-osx-git',

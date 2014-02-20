@@ -45,3 +45,6 @@ cookbook 'sprout-osx-rubymine',
 
 cookbook 'sprout-homebrew',
   :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
+
+cookbook 'sprout-oh-my-zsh',
+  git: 'git://github.com/comparaonline/sprout-oh-my-zsh.git'

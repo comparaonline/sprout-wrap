@@ -39,6 +39,7 @@ node_attributes:
         - google-chrome
         - iterm2
         - menumeters
+        - rubymine
         - skype
         - vagrant
         - virtualbox

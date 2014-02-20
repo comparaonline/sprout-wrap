@@ -13,6 +13,9 @@ recipes:
 # development (ruby)
 - sprout-osx-rbenv
 
+# own /usr/local
+- sprout-osx-base::user_owns_usr_local
+
 node_attributes:
   sprout:
     rbenv:

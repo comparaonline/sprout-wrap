@@ -15,20 +15,14 @@ Finally, if you've never used Chef before - we highly recommend you buy &amp; wa
 
 ## Installation under Mavericks (OS X 10.9)
 
-### 1. Install XCode
-
-[![Xcode - Apple](http://r.mzstatic.com/images/web/linkmaker/badge_macappstore-lrg.gif)](https://itunes.apple.com/us/app/xcode/id497799835?mt=12&uo=4)
-
-Don't forget to start up Xcode once it's installed so that you can agree to the terms&mdash;many commands won't work until the terms have been agreed to.
-
-### 2. Accept XCode Agreement 
+### 1. Accept XCode Agreement
 
     sudo xcodebuild -license
 
 ### 2. Install Command Line Tools
-  
+
     xcode-select --install
-  
+
 ### 3. Clone this project
 
     git clone https://github.com/comparaonline/sprout-wrap.git

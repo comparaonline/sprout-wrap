@@ -7,11 +7,6 @@ cookbook 'ruby_build'
 
 cookbook 'rbenv', git: 'git://github.com/fnichol/chef-rbenv.git'
 
-
-cookbook 'sprout-osx-homebrew-taps',
-  :git => 'git://github.com/comparaonline/sprout.git',
-  :path => 'sprout-osx-homebrew-taps'
-
 cookbook 'sprout-osx-rbenv',
   :git => 'git://github.com/comparaonline/sprout.git',
   :path => 'sprout-osx-rbenv'
@@ -49,7 +44,7 @@ cookbook 'sprout-osx-rubymine',
   :path => 'sprout-osx-rubymine'
 
 cookbook 'sprout-homebrew',
-  :git => 'git://github.com/pivotal-sprout/sprout-homebrew.git'
+  :git => 'git://github.com/comparaonline/sprout-homebrew.git'
 
 cookbook 'sprout-osx-oh-my-zsh',
   git: 'git://github.com/comparaonline/sprout-osx-oh-my-zsh.git'

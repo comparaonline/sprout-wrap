@@ -6,6 +6,14 @@ SITE
     ruby_build (0.8.0)
 
 GIT
+  remote: git://github.com/comparaonline/sprout-homebrew.git
+  ref: master
+  sha: db9920b06e0fccc19291a6bd6f0ee3802a1299ae
+  specs:
+    sprout-homebrew (0.1.0)
+      homebrew (>= 0.0.0)
+
+GIT
   remote: git://github.com/comparaonline/sprout-osx-oh-my-zsh.git
   ref: master
   sha: 874407f69ad06f3c17a606ddbde5c61acf03a524
@@ -14,19 +22,9 @@ GIT
 
 GIT
   remote: git://github.com/comparaonline/sprout.git
-  path: sprout-osx-homebrew-taps
-  ref: master
-  sha: 22ededae1a3935ae27047a00d911b0f222c7e479
-  specs:
-    sprout-osx-homebrew-taps (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-osx-base (>= 0.0.0)
-
-GIT
-  remote: git://github.com/comparaonline/sprout.git
   path: sprout-osx-rbenv
   ref: master
-  sha: 22ededae1a3935ae27047a00d911b0f222c7e479
+  sha: 6a5af5ff77ca42414fb06544152e2a225c1f43f1
   specs:
     sprout-osx-rbenv (0.1.0)
       homebrew (>= 0.0.0)
@@ -38,14 +36,6 @@ GIT
   sha: 9afb4e5da2e6212504a12de3bbbd410cd96100f6
   specs:
     rbenv (0.7.3)
-
-GIT
-  remote: git://github.com/pivotal-sprout/sprout-homebrew.git
-  ref: master
-  sha: 25251cec3bc0325fcc2f3b6ebb5ce3d135414cca
-  specs:
-    sprout-homebrew (0.1.0)
-      homebrew (>= 0.0.0)
 
 GIT
   remote: git://github.com/pivotal-sprout/sprout.git
@@ -151,7 +141,6 @@ DEPENDENCIES
   sprout-osx-apps (>= 0)
   sprout-osx-base (>= 0)
   sprout-osx-git (>= 0)
-  sprout-osx-homebrew-taps (>= 0)
   sprout-osx-oh-my-zsh (>= 0)
   sprout-osx-rbenv (>= 0)
   sprout-osx-rubymine (>= 0)

@@ -8,7 +8,7 @@ SITE
 GIT
   remote: git://github.com/comparaonline/sprout-homebrew.git
   ref: master
-  sha: db9920b06e0fccc19291a6bd6f0ee3802a1299ae
+  sha: 4c9078796ceb721271f049fa0a88d2f0293175d7
   specs:
     sprout-homebrew (0.1.0)
       homebrew (>= 0.0.0)
